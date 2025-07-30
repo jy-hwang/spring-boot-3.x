@@ -1,3 +1,9 @@
 spring:
   application:
     name: usingwell
+  task:
+    execution:
+      pool:
+        core-size: 16
+      thread-name-prefix: myTask-
+
